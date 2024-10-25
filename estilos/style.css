@@ -4,7 +4,9 @@
 #3A2337
 #0C0A17
 #21304F
-#587aca*/
+#587aca
+
+cores usadas #ccbefc, #587aca*/
 
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -14,7 +16,7 @@
 }
 
 body, html{
-    background-image: linear-gradient(to top, #a3abdd, #0C0A17);
+    background-image: linear-gradient(to top, #ccbefc, #587aca);
     background-color: #587aca;
     height: 100vh;
     width: 100vw;
@@ -53,5 +55,64 @@ section#login > div#imagem{
 
 section#login > div#formulario {
     display: block;
-    padding: 10px;
+    padding: 9.9px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p{
+    font-size: 0.9em;
+    
+}
+
+form > div.campo{
+    background-color: #d7cfee;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #6a88d1;
+    color: aliceblue;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #ccbefc;
+    color: #316fff;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 7px;
+    background-color: #fffffff3;
+    color: #316fff;
+    border: 1px solid #316fff;
+    border-radius: 7px;
+    text-decoration: none;
+}
+form > a.botao > span{
+    font-size: 0.8em;
+}
+form > a.botao:hover{
+    background-color: #ccbefc;
 }
